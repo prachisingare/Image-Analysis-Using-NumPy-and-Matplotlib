@@ -21,19 +21,17 @@ import numpy as np
 img = Image.open("Shivaji Maharaj Fort.jpeg")
 img_array = np.asarray(img)
 print(img_array.shape)  # Output: (602, 602, 3)
-
+```
 
 ---
 
-## 🧪 Technologies Used
+## 🛠 Technologies Used
 
-| Tool/Library | Purpose                          |
-|--------------|----------------------------------|
-| Python 3.10+ | Core programming language        |
-| NumPy        | Matrix operations & manipulations|
-| Matplotlib   | Image and data visualization     |
-| PIL (Pillow) | Loading and handling image files |
-| JupyterLab   | Interactive notebook environment |
+- Python
+- Jupyter Notebook
+- NumPy
+- Matplotlib
+- PIL (Python Imaging Library)
 
 ---
 
@@ -47,17 +45,17 @@ print(img_array.shape)  # Output: (602, 602, 3)
 
 ---
 
+## 🖥 Features Demonstrated
+
+- Basic array operations on images
+- Image loading and displaying using Matplotlib
+- RGB channel manipulation
+- Color space visualization with `cmap` options like `gray`, `Reds`, `Blues`, etc.
+- Cloning and editing pixel values
+
+---
+
 ## 💡 Sample Code Highlights
-
-### Load Image and Convert to Array
-```python
-from PIL import Image
-import numpy as np
-
-img = Image.open("Shivaji Maharaj Fort.jpeg")
-img_array = np.asarray(img)
-print(img_array.shape)  # Output: (602, 602, 3)
-
 
 🎯 Learning Outcomes
 Understand the structure and representation of digital images
